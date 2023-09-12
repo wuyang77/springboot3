@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/spring-demo-maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-initializer-web-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-kafka-message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-maven-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ssm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aot-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aot-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aot-initializr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-features/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-features/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-openapi-swagger-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redis-template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-robot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../localRepository/org/springframework/boot/spring-boot-starter-parent/3.1.1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../localRepository/org/springframework/boot/spring-boot-starter-parent/3.1.2/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

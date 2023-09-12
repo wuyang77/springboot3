@@ -1,0 +1,6 @@
+2023-07-16 04:36:56.853 INFO [main] com.wuyang.springlogging.SpringLoggingApplicationTests : Starting SpringLoggingApplicationTests using Java 17.0.7 with PID 24464 (started by 23889 in E:\Project\spring\spring-logging)
+2023-07-16 04:36:56.859 INFO [main] com.wuyang.springlogging.SpringLoggingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-07-16 04:36:57.945 INFO [main] com.wuyang.springlogging.SpringLoggingApplicationTests : Started SpringLoggingApplicationTests in 1.269 seconds (process running for 1.913)
+2023-07-16 04:40:16.829 INFO [main] com.wuyang.springlogging.SpringLoggingApplicationTests : Starting SpringLoggingApplicationTests using Java 17.0.7 with PID 24152 (started by 23889 in E:\Project\spring\spring-logging)
+2023-07-16 04:40:16.835 INFO [main] com.wuyang.springlogging.SpringLoggingApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-07-16 04:40:18.082 INFO [main] com.wuyang.springlogging.SpringLoggingApplicationTests : Started SpringLoggingApplicationTests in 1.424 seconds (process running for 2.018)

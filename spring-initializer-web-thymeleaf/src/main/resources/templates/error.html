@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+
+<body>
+  <p style="color: red">发生了业务错误</p><hr>
+  <p style="color: red">模版引擎error</p><hr>
+  核心业务，每一种错误，都应该受控制，跳转到自己定制的错误页<br>
+  通用业务，classpath:/templates/error.html
+  <pre>
+      <area>
+        //两种方式:text/html和json
+        //内容协商：text/html格式
+        @RequestMapping(produces = MediaType.TEXT_HTML_VALUE)
+        public ModelAndView errorHtml(HttpServletRequest request, HttpServletResponse response) {
+          HttpStatus status = getStatus(request);
+          Map<String, Object> model = Collections
+            .unmodifiableMap(getErrorAttributes(request, getErrorAttributeOptions(request, MediaType.TEXT_HTML)));
+          response.setStatus(status.value());
+          //解析错误的视图地址
+          ModelAndView modelAndView = resolveErrorView(request, response, status, model);
+          //如果解析不到错误页面的地址，默认的错误页就是error
+          return (modelAndView != null) ? modelAndView : new ModelAndView("error", model);
+        }
+      </area>
+  </pre>
+</body>
+</html>

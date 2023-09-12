@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <p style="color: red">模板引擎下，精确码， 500.html</p>
+  <p style="color: red">5开头，服务器报错</p><hr>
+  错误发生的时间：[[${timestamp}]]<hr>
+  错误标识：[[${error}]]<hr>
+  精确错误码:<p style="color: blue" th:text="|${status}|"><hr>
+  错误消息:<p style="color: red" th:text="|${message}|"><hr>
+  错误堆栈:<p style="color: #EE82EE" th:text="|${trace}|"><hr>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+org.springframework.boot.SpringApplicationRunListener=com.wuyang.springbootfeatures.listener.MyAppListener
+org.springframework.context.ApplicationListener=com.wuyang.springbootfeatures.listener.MyListener

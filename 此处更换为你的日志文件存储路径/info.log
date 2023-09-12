@@ -1,0 +1,6 @@
+2023-07-30 03:19:53.291 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8001"]
+2023-07-30 03:19:53.295 INFO [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-07-30 03:19:53.296 INFO [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-30 03:19:53.335 INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-07-30 03:19:53.486 INFO [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8001"]
+2023-07-30 03:19:55.499 INFO [http-nio-8001-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'

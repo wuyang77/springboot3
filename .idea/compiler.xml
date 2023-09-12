@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-initializer-web-thymeleaf" />
+        <module name="springboot-redis-template" />
+        <module name="spring-kafka-message" />
+        <module name="springboot-features" />
+        <module name="springboot-rpc" />
+        <module name="springboot-robot-starter" />
+        <module name="springboot-actuator" />
+        <module name="spring-logging" />
+        <module name="springboot-aot-common" />
+        <module name="spring-ssm" />
+        <module name="springboot-openapi-swagger-crud" />
+        <module name="spring-maven-redis" />
+        <module name="springboot-aot-initializr" />
+        <module name="spring-security" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-initializer-web-thymeleaf" options="-parameters" />
+      <module name="spring-kafka-message" options="-parameters" />
+      <module name="spring-logging" options="-parameters" />
+      <module name="spring-maven-redis" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-ssm" options="-parameters" />
+      <module name="springboot-actuator" options="-parameters" />
+      <module name="springboot-aot-initializr" options="-parameters" />
+      <module name="springboot-features" options="-parameters" />
+      <module name="springboot-openapi-swagger-crud" options="-parameters" />
+      <module name="springboot-redis-template" options="-parameters" />
+      <module name="springboot-robot-starter" options="-parameters" />
+      <module name="springboot-rpc" options="-parameters" />
+    </option>
+  </component>
+</project>
